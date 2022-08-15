@@ -1,0 +1,27 @@
+
+Window object
+
+1. Window is the first thing that gets loaded into the browser.
+
+2. The window object has the majority of the properties length , innerWidth, innerHeight, name, if it has been closed , its parents and more.
+
+3. If you want to access a property for the window it is window.property.
+
+4. All the global variables are defined on the window object.
+   For example, alert(), confirm() are methods defined on the window object.
+   Writing alert() is similar to window.alert()
+   Also, properties like document, location are properties of the window object.
+
+
+Document object
+
+1. The document object is your  html,php,or other document that will be loaded inside your browser.
+
+2. The document object actually gets loaded into your window object and has properties available to it like title, URL, cookie,etc.
+
+3. if it is document it is window.document.property which is also available in short as document.property.
+
+4. It is the direct child of the window object. It is aka Document Object Model (DOM).
+   You can access it via window.document or document.
+   document object has many useful methods defined on it.
+   For example, document.getElementById(), document.getElementByTagName(), document.createElement(), document.querySelector() and many more
